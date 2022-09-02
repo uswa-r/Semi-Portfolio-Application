@@ -89,7 +89,7 @@
 }
 
 .new_footer_area {
-    background: #fbfbfd;
+    background: #eeeeee;
 }
 
 .new_footer_top {
@@ -317,3 +317,125 @@ h6 {
 
 
 /*************footer End*****************/
+
+.btn {
+    background-image: linear-gradient(#f8763e, #f8425c);
+    border: none;
+    box-shadow: 0 0.8rem 3rem rgba(255, 67, 34, 0.5) !important;
+    transition: 0.4s ease-in;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+    background-color: white !important;
+    border: 1px solid red;
+    color: red;
+}
+
+.btn:hover {
+    box-shadow: none !important;
+    background-image: none !important;
+    background-color: white !important;
+    border: 1px solid red !important;
+    color: red !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.imageSecond {
+    background-image: url("http://frontendfreecode.com/img/back-1.jpg");
+    background-size: cover;
+}
+
+.imageFirst {
+    background-image: url("http://frontendfreecode.com/img/back-2.jpg");
+    background-size: cover;
+}
+
+.stillCardImage {
+    background-image: url("http://frontendfreecode.com/img/back-1.jpg");
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.stillCardImage::after {
+    content: "";
+    z-index: 1;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.stillCardImage:hover:after {
+    z-index: 1;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .imgHero {
+        transform: translateX(0%) !important;
+        transform: translateY(-28%) !important;
+        height: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .card {
+        width: 100% !important;
+        height: 60% !important;
+    }
+    .buttonCard {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .imgSec {
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .imgHero {
+        transform: translateX(0%) !important;
+        transform: translateY(-28%) !important;
+        height: 35%;
+    }
+    .card {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .imgHero {
+        height: 100%;
+        justify-content: center;
+    }
+    .card {
+        width: 100% !important;
+    }
+}
