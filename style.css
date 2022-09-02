@@ -29,9 +29,9 @@
     position: relative;
     z-index: 1;
     font-size: 4.5rem;
-    margin: 0 0 55px;
+    margin: 0 0 45px;
     line-height: 1;
-    word-spacing: 5px;
+    letter-spacing: 10px;
     color: rgba(238, 238, 238, 0.9);
 }
 
@@ -41,6 +41,7 @@
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.4;
+    letter-spacing: 3px;
 }
 
 
@@ -54,7 +55,7 @@
     height: 300px;
     background-color: var(--color);
     box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
-    transition: 500ms;
+    transition: 800ms;
 }
 
 .waves::before,
