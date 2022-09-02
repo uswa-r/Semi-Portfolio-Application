@@ -44,7 +44,7 @@
     letter-spacing: 3px;
 }
 
-@media (max-width:400px) {
+@media (max-width:550px) {
     .hero h2 {
         font-size: 45px;
         letter-spacing: 5px;
