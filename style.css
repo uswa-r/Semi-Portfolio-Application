@@ -464,3 +464,76 @@ input:focus {
     border: 1px solid red !important;
     color: red !important;
 }
+
+.about_us {
+    display: block;
+    width: 100%;
+    min-height: 60vh;
+    background: rgba(3, 15, 27, 0.959);
+    color: rgba(255, 255, 255, 0.7);
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+    padding: 150px 10% 50px 10%;
+}
+
+.about_us>h2 {
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    line-height: 31px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0 auto 30px;
+}
+
+.about_us>span {
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.75;
+    margin: 20px auto 10px;
+}
+
+.about_us>p {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75;
+    margin: 0 auto 10px;
+}
+
+.about_us>img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.about_us>.mission {
+    color: rgba(255, 255, 255, 1);
+    display: blcok;
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(40, 196, 144, 0.904);
+    margin-left: 20%;
+    padding: 5px 10px;
+}
+
+.about_us>.mission>span {
+    display: block;
+    margin: 0 auto 10px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.75;
+}
+
+.about_us>.mission>p {
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto 10px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.75;
+}
